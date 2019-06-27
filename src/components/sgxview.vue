@@ -1,5 +1,5 @@
 <template>
-  <div style="background: url(../../static/sgxLeaderboard/imgs/bgc.jpg) no-repeat">
+  <div >
     <header>
       <a href="#">
         <span>
@@ -71,7 +71,7 @@
 
 <script>
 // import setRem from "../../static/sgxLeaderboard/rem.js";
-import Axios from "../../node_modules/axios/dist/axios.js";
+// import Axios from "../../node_modules/axios/dist/axios.js";
 export default {
   data() {
     return {};
@@ -84,8 +84,8 @@ export default {
 };
 </script>
 
-<style lang='less'>
-@import "../../static/sgxLeaderboard/common.css";
+<style scoped lang='less'>
+// @import "../../static/sgxLeaderboard/common.css";
 * {
   margin: 0;
   padding: 0;
